@@ -28,6 +28,9 @@ $gif = array("https://tenor.com/view/detective-detective-conan-anime-eyeglasses-
     "https://tenor.com/view/detective-conan-glasses-gif-23905397.gif");
 $pk = $gif[mt_rand(1, count($gif))];
 echo $pk;
-header("Location: " . $pk);
+//header("Location: " . $pk);
+echo '<script type="text/javascript">
+           window.location = "' . $pk . '"
+      </script>';
 die();
 ?>
