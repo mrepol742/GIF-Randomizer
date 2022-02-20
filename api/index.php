@@ -16,16 +16,16 @@
 * limitations under the License.
 */
 
-$gif = array("https://tenor.com/view/detective-detective-conan-anime-eyeglasses-gif-16507322",
-    "https://tenor.com/view/detective-conan-edogawa-conan-a-detective-anime-windy-gif-16899714", 
-    "https://tenor.com/view/detective-conan-shinichi-kudo-its-elementary-tsk-tsk-tsk-wink-gif-16899593",
-    "https://tenor.com/view/detective-conan-shinichi-kudo-conan-edogawa-aptx-transformation-gif-22476040",
-    "https://tenor.com/view/detective-conan-conan-edogawa-smirk-cocky-smug-gif-22313617",
-    "https://tenor.com/view/detective-conan-shinichi-kudo-shinichi-anime-upset-shinichi-upset-gif-16899096",
-    "https://tenor.com/view/detective-conan-edogawa-conan-anime-blush-gif-16899802",
-    "https://tenor.com/view/detective-conan-shinichi-kudo-smile-cute-kawaii-gif-18664638",
-    "https://tenor.com/view/detective-conan-conan-edogawa-gremlin-smile-mischevious-gif-19597821",
-    "https://tenor.com/view/detective-conan-glasses-gif-23905397");
+$gif = array("https://tenor.com/view/detective-detective-conan-anime-eyeglasses-gif-16507322.gif",
+    "https://tenor.com/view/detective-conan-edogawa-conan-a-detective-anime-windy-gif-16899714.gif", 
+    "https://tenor.com/view/detective-conan-shinichi-kudo-its-elementary-tsk-tsk-tsk-wink-gif-16899593.gif",
+    "https://tenor.com/view/detective-conan-shinichi-kudo-conan-edogawa-aptx-transformation-gif-22476040.gif",
+    "https://tenor.com/view/detective-conan-conan-edogawa-smirk-cocky-smug-gif-22313617.gif",
+    "https://tenor.com/view/detective-conan-shinichi-kudo-shinichi-anime-upset-shinichi-upset-gif-16899096.gif",
+    "https://tenor.com/view/detective-conan-edogawa-conan-anime-blush-gif-16899802.gif",
+    "https://tenor.com/view/detective-conan-shinichi-kudo-smile-cute-kawaii-gif-18664638.gif",
+    "https://tenor.com/view/detective-conan-conan-edogawa-gremlin-smile-mischevious-gif-19597821.gif",
+    "https://tenor.com/view/detective-conan-glasses-gif-23905397.gif");
 
 echo $gif[mt_rand(1, count($gif))];
 ?>
