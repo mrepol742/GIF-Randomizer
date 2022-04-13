@@ -27,6 +27,6 @@ $gif = array("https://tenor.com/view/detective-detective-conan-anime-eyeglasses-
     "https://tenor.com/view/detective-conan-conan-edogawa-gremlin-smile-mischevious-gif-19597821.gif",
     "https://tenor.com/view/detective-conan-glasses-gif-23905397.gif");
 $pk = $gif[mt_rand(1, count($gif))];
-header("Location: " . $pk);
+header("Location: " . $pk, true, 303);
 die();
 ?>
